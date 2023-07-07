@@ -1,0 +1,11 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - bazel=5.4.0
+  - pip:
+    - tensorflow==2.11.0
+    - tensorflow_datasets
