@@ -5,8 +5,6 @@ FROM continuumio/miniconda3
 WORKDIR /app
 
 # Copy the code files into the container
-COPY layers /app/layers
-COPY models /app/models
 COPY environment.yml /app/environment.yml
 
 # Install system dependencies
